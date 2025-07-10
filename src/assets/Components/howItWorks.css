@@ -1,0 +1,138 @@
+section.how-it-works {
+  width: 98%;
+  margin: 0 auto;
+  height: 816px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e8ebf0;
+  margin-top: 50px;
+  border-radius: 40px;
+  padding: 64px 37px;
+}
+
+section.how-it-works .top-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section.how-it-works .top-text h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #353940;
+}
+
+section.how-it-works .top-text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #595d66;
+  text-align: center;
+  width: 612px;
+}
+
+section.how-it-works .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 38px;
+  margin-top: 62px;
+}
+
+section.how-it-works .cards .recruit,
+section.how-it-works .cards .seeker {
+  height: 550px;
+  width: 510px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background: #ffffff;
+  padding: 32px;
+  box-shadow: #a2a6b0 5px 5px 0px;
+}
+
+section.how-it-works .cards .recruit .header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #144dc9;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 13px;
+  position: relative;
+  margin-top: 21px;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step:nth-child(1)::after,
+.step:nth-child(2)::after,
+.step:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  left: 19px;
+  top: 40px;
+  width: 2px;
+  height: calc(100% + 10px);
+  border-left: 2px dotted #c1c9d2;
+  z-index: 1;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  background: #91b3ff;
+  color: #2563eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.step-content {
+  flex: 1;
+  padding-top: 2px;
+}
+
+.step-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #353940;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.step-description {
+  color: #484b54;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Seekers */
+
+.seeker .header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #009061;
+}
+
+.one,
+.two,
+.three,
+.four {
+  background-color: #caffed;
+  color: #10b981;
+}

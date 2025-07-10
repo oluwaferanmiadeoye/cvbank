@@ -1,0 +1,72 @@
+section.start-today {
+  width: 97%;
+  margin: 0 auto;
+  background: url("../images/blue.svg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 70px;
+  border-radius: 40px;
+  height: 352px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+section.start-today h2.start {
+  font-size: 44px;
+  font-family: 900;
+}
+
+section.start-today p {
+  font-size: 20px;
+  font-family: 400;
+  margin-top: 9px;
+  margin-bottom: 31px;
+  width: 602px;
+}
+
+section.start-today .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+}
+
+section.start-today .buttons a.rec {
+  padding: 23px;
+  color: #144dc9;
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  box-shadow: #bed2ff 1px 3px 0px;
+}
+
+section.start-today .buttons a.rec:active {
+  box-shadow: none;
+  transform: translate(3px, 1px);
+}
+
+section.start-today .buttons a.seek {
+  padding: 23px;
+  color: #f9fafb;
+  background-color: #2563eb;
+  border-radius: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  box-shadow: #bed2ff 1px 3px 0px;
+}
+
+section.start-today .buttons a.seek:active {
+  box-shadow: none;
+  transform: translate(3px, 1px);
+}

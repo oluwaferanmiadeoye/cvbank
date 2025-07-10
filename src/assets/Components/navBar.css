@@ -1,0 +1,64 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+nav .nav-links {
+  display: flex;
+  gap: 33px;
+}
+
+nav .nav-links a {
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+nav .nav-links li a.active {
+  opacity: 1;
+}
+
+nav .nav-links a:hover {
+  opacity: 0.8;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-buttons a.login-btn,
+.auth-buttons a.signup-btn {
+  background-color: transparent;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.auth-buttons a.login-btn:hover,
+.auth-buttons a.signup-btn:hover {
+  color: #2563eb;
+}
+
+.auth-buttons a.post-btn {
+  background-color: #2563eb;
+  color: #fff;
+  padding: 4px 15px;
+  height: 32px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #bed2ff 1px 3px 0px;
+  text-decoration: none;
+}
+
+.auth-buttons a.post-btn:active {
+  box-shadow: none;
+  transform: translate(3px, 1px);
+}

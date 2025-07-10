@@ -1,0 +1,109 @@
+section.choose {
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section.choose .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+  text-align: center;
+  gap: 6px;
+}
+
+section.choose .top h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #353940;
+}
+
+section.choose .top p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #595d66;
+  margin-top: 20px;
+  text-align: center;
+  width: 612px;
+}
+
+section.choose .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 71px;
+}
+
+section.choose .bottom .breh {
+  width: 596px;
+  height: 195px;
+  background: #e8ebf0;
+  border-radius: 20px;
+  padding: 28px 24px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 10px;
+  color: #353940;
+}
+
+section.choose .bottom .breh .icons {
+  color: #2563eb;
+  background: #91b3ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+}
+
+section.choose .bottom .breh .green {
+  color: #009061;
+  background: #85ffd7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+}
+
+section.choose .bottom .breh .red {
+  color: #a03a3a;
+  background: #ffc7c7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+}
+
+section.choose .bottom .breh .icons i {
+  font-size: 24px;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+}
