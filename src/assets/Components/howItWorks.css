@@ -121,13 +121,14 @@ section.how-it-works .cards .recruit .header h1 {
   color: #484b54;
   font-size: 16px;
   line-height: 1.6;
+  width: 344px;
 }
 
 /* Seekers */
 
 .seeker .header h1 {
-  font-size: 24px;
-  font-weight: 700; /* Using 700 as the intended bold weight */
+  font-size: 14px;
+  font-weight: 500; /* Using 700 as the intended bold weight */
   color: #009061;
   background-color: #caffed;
   padding: 7px 13px;

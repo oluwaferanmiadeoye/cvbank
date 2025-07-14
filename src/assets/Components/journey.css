@@ -12,6 +12,7 @@ section.start-today {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  padding: 70px 326px;
 }
 
 section.start-today h2.start {
