@@ -40,6 +40,9 @@ section.choose .bottom {
   gap: 71px;
 }
 
+section.choose .bottom. {
+}
+
 section.choose .bottom .breh {
   width: 596px;
   height: 195px;
@@ -106,4 +109,60 @@ section.choose .bottom .breh .icons i {
   align-self: center;
   justify-self: center;
   display: flex;
+}
+
+@media (max-width: 768px) {
+  section.choose {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+
+  section.choose .top {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 0px;
+    gap: 0px;
+  }
+
+  section.choose .top h2 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  section.choose .top p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+
+  section.choose .bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    gap: 0px;
+  }
+
+  section.choose .bottom .left img {
+    display: none;
+  }
+
+  section.choose .bottom .breh {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+
+  section.choose .top h2 {
+    font-size: 36px;
+  }
+
+  section.choose .top p {
+    width: 90%;
+    font-size: 16px;
+  }
 }

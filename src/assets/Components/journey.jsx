@@ -9,7 +9,7 @@ function Journey () {
         <p>Whether you're seeking your next role or hiring the best, 
 M-CVs Bank is here to help. Sign up now and explore opportunities!</p>
         <div className="buttons">
-            <a href="#" target="_blank"className="seek">Get started<FontAwesomeIcon icon={faArrowRight} /></a>
+            <a href="#" target="_blank"className="seek">Get started <div className="iic"><FontAwesomeIcon icon={faArrowRight} /></div> </a>
            <a href="#" target="_blank" className="rec">Learn more</a>
            
             </div>

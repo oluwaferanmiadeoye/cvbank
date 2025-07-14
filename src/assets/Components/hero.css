@@ -67,7 +67,7 @@
   margin-top: 20px;
 }
 
-.hero .left-section .post-btn {
+.hero .left-section .post-btn a {
   background-color: #2563eb;
   color: #fff;
   padding: 10px 25px;
@@ -83,12 +83,12 @@
   cursor: pointer;
 }
 
-.hero .left-section .post-btn:hover {
+.hero .left-section .post-btn a:hover {
   background-color: #6494ff;
   transition: all 0.3s ease;
 }
 
-.hero .left-section .post-btn:active {
+.hero .left-section .post-btn a:active {
   box-shadow: none;
   transform: translate(3px, 1px);
   transition: all 0s ease-in-out;
@@ -138,4 +138,86 @@
 
 .hero .right-section {
   margin-right: 114px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding-left: 30px;
+    padding: 40px 35px 40px 30px;
+    margin: 20px auto 51px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background: url("../images/mobile-hero.png") no-repeat center center;
+    justify-content: center;
+    width: 360px;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .hero .left-section .main-text h1 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin: 0px;
+  }
+
+  .hero .left-section {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 43px;
+  }
+
+  .hero .left-section .main-text img {
+    display: none;
+  }
+
+  .hero .right-section {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .hero .left-section h1 {
+    font-size: 36px;
+  }
+
+  .hero .left-section h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #595d66;
+    margin-top: 10px;
+    width: 313px;
+    text-align: left;
+  }
+  .hero .left-section .main-text {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  .hero .right-section img {
+    width: 230.32px;
+    height: 228px;
+    margin-bottom: 40px;
+  }
+
+  .hero .left-section .post-btn a {
+    font-size: 13px;
+    width: 150px;
+    height: 31px;
+    padding: 6px 16px;
+  }
+  .hero .left-section .btns .learn a {
+    font-size: 13px;
+    width: 150px;
+    height: 31px;
+    padding: 6px 16px;
+  }
+
+  .hero .left-section .btns {
+    margin-top: 15px;
+  }
 }

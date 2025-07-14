@@ -1,7 +1,6 @@
 section.how-it-works {
   width: 98%;
   margin: 0 auto;
-  height: 816px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,8 +44,6 @@ section.how-it-works .cards {
 
 section.how-it-works .cards .recruit,
 section.how-it-works .cards .seeker {
-  height: 550px;
-  width: 510px;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
   background: #ffffff;
@@ -55,17 +52,22 @@ section.how-it-works .cards .seeker {
 }
 
 section.how-it-works .cards .recruit .header h1 {
+  background: #bed2ff;
   font-size: 24px;
-  font-weight: 700;
+  padding: 7px 13px;
+  border-radius: 21px;
+  font-weight: 500;
   color: #144dc9;
+  width: 101px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .step {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 13px;
+  margin: 10px auto;
   position: relative;
-  margin-top: 21px;
 }
 
 .step:last-child {
@@ -125,14 +127,87 @@ section.how-it-works .cards .recruit .header h1 {
 
 .seeker .header h1 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 700; /* Using 700 as the intended bold weight */
   color: #009061;
+  background-color: #caffed;
+  padding: 7px 13px;
+  border-radius: 21px;
+  width: 109px;
 }
-
 .one,
 .two,
 .three,
 .four {
   background-color: #caffed;
   color: #10b981;
+}
+
+@media (max-width: 768px) {
+  section.how-it-works {
+    padding: 15px;
+  }
+
+  section.how-it-works .top-text {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 15px;
+    margin-top: 42px;
+  }
+
+  section.how-it-works .top-text h2 {
+    font-size: 28px;
+  }
+
+  section.how-it-works .top-text p {
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  section.how-it-works .cards {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 38px;
+    margin-top: 0px;
+    padding: 30px 15px;
+  }
+
+  section.how-it-works .cards .recruit .header h1,
+  section.how-it-works .cards .seeker .header h1 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 13px;
+  }
+
+  .step-number {
+    font-size: 20px;
+    font-size: 600;
+  }
+
+  .step-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #353940;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+  .step-description {
+    color: #484b54;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  section.how-it-works .cards .recruit,
+  section.how-it-works .cards .seeker {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .step:nth-child(1) {
+    margin-top: 17px;
+  }
 }

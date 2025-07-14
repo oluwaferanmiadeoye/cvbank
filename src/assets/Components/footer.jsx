@@ -1,17 +1,20 @@
 import Logo from '../images/logo.png';
 import './footer.css';
+import React from 'react';  
+
+
 
 function Footer (){
     return (
-        <footer class="footer">
-        <div class="above">
-          <div class="leftt">
+        <footer className="footer">
+        <div className="above">
+          <div className="leftt">
             <img src={Logo} alt="CV Bank Logo" />
             <p>Connecting talent with opportunity across Nigeria. 
 The premier platform for job seekers and recruiters.</p>
           </div>
-          <div class="righty">
-          <div class="link-one">
+          <div className="righty">
+          <div className="link-one">
             <h2>Quick Links</h2>
             <ul>
               <li><a href="#">About Us</a></li>
@@ -20,7 +23,7 @@ The premier platform for job seekers and recruiters.</p>
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <div class="link-two">
+          <div className="link-two">
             <h2>Support</h2>
             <ul>
               <li><a href="#">Help Centre</a></li>
@@ -31,8 +34,8 @@ The premier platform for job seekers and recruiters.</p>
           </div>
         </div>
         </div>
-        <div class="line"></div>
-        <div class="below">
+        <div className="line"></div>
+        <div className="below">
           <p>© 2025 M-CVs Bank. All rights reserved.</p>
         </div>
       </footer>

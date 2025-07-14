@@ -10,7 +10,7 @@ function HowItWorks (){
         <div className="cards">
           <div className="recruit">
             <div className="header">
-              <h1>For Recruiters</h1>
+              <h1>Recruiters</h1>
             </div>
 
             <div className="steps">
@@ -62,7 +62,7 @@ function HowItWorks (){
 
           <div className="seeker">
             <div className="header">
-              <h1>For Job Seekers</h1>
+              <h1>Job Seekers</h1>
             </div>
             <div className="steps2">
               <div className="step">

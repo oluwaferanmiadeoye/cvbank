@@ -6,7 +6,6 @@ section.start-today {
   background-position: center;
   margin-top: 70px;
   border-radius: 40px;
-  height: 352px;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -66,7 +65,52 @@ section.start-today .buttons a.seek {
   box-shadow: #bed2ff 1px 3px 0px;
 }
 
+section.start-today .buttons a.seek .iic {
+  background-color: #fafcff;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  padding: 7px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
 section.start-today .buttons a.seek:active {
   box-shadow: none;
   transform: translate(3px, 1px);
+}
+
+@media (max-width: 768px) {
+  section.start-today {
+    padding: 40px;
+    background: url("../images/journeymobile.svg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 60px auto;
+  }
+
+  section.start-today h2.start {
+    font-size: 24px;
+  }
+
+  section.start-today p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  section.start-today .buttons {
+    gap: 15px;
+    font-size: 14px;
+  }
+
+  section.start-today .buttons a.rec,
+  section.start-today .buttons a.seek {
+    text-align: center;
+    padding: 8px 15px;
+    font-size: 14px;
+  }
 }

@@ -5,18 +5,21 @@ import Choose from './assets/Components/choose.jsx'
 import HowItWorks from './assets/Components/howItWorks.jsx'
 import Journey from './assets/Components/journey.jsx'
 import Footer from './assets/Components/footer.jsx'
+import './index.css'
 
 function App() {
 
   return (
    
     <>
-      <Nav />   
-      <Hero />
-      <Choose />
-      <HowItWorks />
-      <Journey />
-      <Footer />
+      <div className="container">
+        <Nav />   
+        <Hero />
+        <Choose />
+        <HowItWorks />
+        <Journey />
+        <Footer />
+      </div>
     </>
   
   )

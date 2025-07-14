@@ -4,6 +4,7 @@ footer.footer {
   flex-direction: column;
   justify-content: center;
   padding: 67px 83px 38px 83px;
+  background: #e8ebf0;
 }
 
 footer.footer .above {
@@ -49,4 +50,41 @@ footer.footer .above .righty .link-two li a {
   background-color: #353940;
   margin-top: 37px;
   margin-bottom: 23px;
+}
+
+@media (max-width: 768px) {
+  footer.footer {
+    padding: 25px 15px;
+  }
+
+  footer.footer .above {
+    flex-direction: column;
+    align-items: center;
+    gap: 49px;
+  }
+
+  footer.footer .above .leftt p {
+    text-align: left;
+  }
+
+  footer.footer .above .leftt,
+  footer.footer .above .righty {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer.footer .above .righty {
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .below {
+    display: flex;
+
+    text-align: left;
+    gap: 20px;
+    align-self: flex-start;
+    justify-self: flex-start;
+  }
 }
