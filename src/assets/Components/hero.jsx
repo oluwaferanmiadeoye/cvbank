@@ -15,7 +15,7 @@ function Hero() {
           </div>
 
           <h3 className="sub-text">
-            Welcome to M-CVs Bank, the premier job platform. 
+            WWelcome to CV Bank, the premier job platform. 
 Unlock a world of skilled professionals with free CV downloads 
 and verified talent screening. 
           </h3>

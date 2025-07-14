@@ -146,6 +146,9 @@ section.how-it-works .cards .recruit .header h1 {
 @media (max-width: 768px) {
   section.how-it-works {
     padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   section.how-it-works .top-text {
@@ -198,8 +201,10 @@ section.how-it-works .cards .recruit .header h1 {
 
   .step-description {
     color: #484b54;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.6;
+    width: 210px;
+    flex-wrap: wrap;
   }
 
   section.how-it-works .cards .recruit,
