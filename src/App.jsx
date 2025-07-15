@@ -12,8 +12,9 @@ function App() {
   return (
    
     <>
-      <div className="container">
-        <Nav />   
+      
+        <Nav />  
+         <div className="container">
         <Hero />
         <Choose />
         <HowItWorks />

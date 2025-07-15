@@ -49,6 +49,7 @@ nav .nav-links a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+
 .auth-buttons a.login-btn:hover,
 .auth-buttons a.signup-btn:hover {
   color: #2563eb;
