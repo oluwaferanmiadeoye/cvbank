@@ -5,6 +5,7 @@ footer.footer {
   justify-content: center;
   padding: 67px 83px 38px 83px;
   background: #e8ebf0;
+  margin-top: 30px;
 }
 
 footer.footer .above {

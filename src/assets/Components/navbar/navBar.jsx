@@ -1,4 +1,4 @@
-import Logo from '../images/logo.png';
+import Logo from '../../images/logo.png';
 import './navBar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";

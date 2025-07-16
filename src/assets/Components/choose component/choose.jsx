@@ -1,5 +1,5 @@
 import "./choose.css";
-import Illustration2 from "../images/illustration2.svg";
+import Illustration2 from "../../images/illustration2.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faShieldHalved} from "@fortawesome/free-solid-svg-icons";
 import {faDownload} from "@fortawesome/free-solid-svg-icons";

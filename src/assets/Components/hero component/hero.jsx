@@ -1,6 +1,6 @@
 import './hero.css'
-import Mag from '../images/mag.png'
-import Illustration from '../images/illustration1.png'
+import Mag from '../../images/mag.png'
+import Illustration from '../../images/illustration1.png'
 
 function Hero() {
     return (
